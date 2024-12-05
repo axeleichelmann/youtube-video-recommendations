@@ -1,3 +1,4 @@
 # Ignore secret key files
 data/*
 env/*
+API/data/*
