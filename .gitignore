@@ -2,3 +2,4 @@
 data/*
 env/*
 API/data/*
+API/__pycache__
