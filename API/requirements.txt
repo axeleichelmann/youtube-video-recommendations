@@ -1,0 +1,6 @@
+sentence-transformers==3.3.0
+pandas==2.2.3
+fastapi==0.115.5
+fastapi[standard]
+pyarrow==18.0.0
+youtube_transcript_api
