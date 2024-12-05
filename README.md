@@ -5,6 +5,6 @@ Sylvie von Duuglas-Ittu has one of the greatest Muay Thai Youtube Channel's with
 In this project I attempt to create a more comprehensive search algorithm which also takes into account the similarity of the search query to the video transcript, by calculating the distance between their respective embeddings as done by the 'all-mpnet-base-v2' LLM available with the SentenceTransformer python library. 
 The final search function is served as an API (built using FastAPI) and deployed to Google Cloud Run so that it could be used by the Gradio app which I created and deployed as a HuggingFace Space to serve as the front-end of the web app.
 
-In order to use the app just type in a Muay Thai related topic you would like to know about (e.g. switch kick, footwork, timing) and the API will return a list of up to 5 video recommendations from Sylvie' YouTube channel that are most related to the search query.
+In order to use the app just type in a Muay Thai related topic you would like to know about (e.g. low kick, footwork, timing) and the API will return a list of up to 5 video recommendations from Sylvie' YouTube channel that are most related to the search query.
 
 Web App - https://huggingface.co/spaces/axeleichelmann/yt-semantic-search-app
